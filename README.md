@@ -116,3 +116,15 @@ RESPONSE:
     "data": "Order Placed Successfully"
 }
 ```
+
+Setting Up Enviroment :
+
+Commands :
+
+pipenv install --deploy - To install all packages from Pipfile
+
+pipenv run python manage.py makemigrations
+
+pipenv run python manage.py migrate
+
+pipenv run python manage.py runserver 
